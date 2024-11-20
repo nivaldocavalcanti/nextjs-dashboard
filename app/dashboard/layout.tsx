@@ -1,4 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+
+// The experimental feature "experimental.ppr" can only be enabled when using the latest canary version of Next.js.
+// export const experimental_ppr = true;
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
